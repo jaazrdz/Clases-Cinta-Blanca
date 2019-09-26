@@ -1,0 +1,24 @@
+body{
+    background-color: blueviolet
+}
+h1{
+    color: honeydew
+}
+h2{
+    color: darkgrey
+    font-size: 22px:
+
+}
+p{
+    color: darkgoldenrod;
+}
+footer{
+    background-color: rgb(234, 146, 252);
+}
+footer p{
+    color: blue;
+}
+#pato{
+width: 500px;
+border-radius: 50%;
+}
