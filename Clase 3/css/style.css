@@ -1,0 +1,18 @@
+.tarjeta{
+    height: 250px;
+    width: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 4px gray;
+
+}
+
+.imagen{
+    width: 250px;
+}
+
+.texto{
+    width: 300px;
+    display: inline-block;
+
+}
