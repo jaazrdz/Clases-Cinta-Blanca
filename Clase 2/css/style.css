@@ -1,0 +1,17 @@
+.caja1{
+    border: 5px solid;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: coral;
+}
+
+.caja2{
+    border: 5px solid;
+    color: darkgreen;
+}
+
+h3{
+    color: darkolivegreen;
+    font-size: 50px;
+
+}
