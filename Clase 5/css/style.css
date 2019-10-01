@@ -1,0 +1,55 @@
+body{
+    font-family: 'Courier New', Courier, monospace
+    width: 90%;
+    margin-left: 5%;
+    color: blue;
+}
+
+#resumen{
+    display: none;
+}
+header{
+    padding: 1vh, 1vw;
+    margin-bottom: 1vw;
+}
+
+header h1{
+    padding-left: 1%;
+    font-size:1.5em;
+
+}
+
+#contenido{
+    margin: 1%;
+    text-align: center;
+
+}
+
+footer{
+    padding-top: 1vw;
+    border-top: solid 1px color rgb(46, 45, 45);
+    margin-top: 1vw;
+    font-size: 0.8em;
+}
+
+img{
+    width: 50%;
+}
+
+@media(min-width: 600px) {
+    body{
+        font-size: 18px;
+        color: blue;
+    }
+    #resumen{
+        display: block;
+    }   
+
+}
+
+@media(min-width: 950px){
+    body{
+        font-size: 20px;
+        color: brown;
+    }
+}
