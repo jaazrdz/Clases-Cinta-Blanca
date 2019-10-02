@@ -1,0 +1,47 @@
+body{
+    font-size: 3em;
+
+}
+
+div[class*="bloque"]{
+    min-height: 200px;
+    /* flex-grow: 1;
+    flex-shrink: 2*/
+    flex: 1 2 40%;
+
+}
+
+.bloque1{
+    color: aquamarine
+    background-color: aqua;
+    order:2
+}
+.bloque2{
+    background-color:rgb(253, 5, 5);
+    order:3
+}
+.bloque3{
+    background-color:rgb(208, 253, 5);
+    order:4
+}
+.bloque4{
+    background-color:rgb(59, 45, 248);
+    order:5
+}
+.bloque5{
+    background-color:rgb(5, 253, 59);
+    order:1
+}
+.bloque6{
+    background-color:rgb(179, 11, 170);
+    order:6
+}
+.bloque7{
+    background-color:rgb(250, 49, 166);
+    order:7
+}
+
+.contenedor{
+    display: flex;
+    
+}
