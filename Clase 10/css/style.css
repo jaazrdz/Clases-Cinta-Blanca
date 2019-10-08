@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.contenedor{
+    margin: 0 auto;
+    flex: 1;
+    max-width: 1200px;
+    display: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    align-items: inherit;
+    height: inherit;
+
+}
+
+.divisor{
+    display: grid;
+
+    /*grid-template-row: 150px 200px;
+    grid-template-columns: 200px 300px;*/
+    /*grid-template: filas/columnas*/
+    /*grid-template: 150px 200px / 200px 300px*/
+    /*grid-template: 550px 50% / 20% 600 px;*/
+
+    grid-template: 1fr/ 350px 1fr
+
+}
+
+.top5{
+    padding: 20px 30px;
+    color: beige;
+    background-color: rgb(250, 49, 76);
+
+}
+
+.imagenlogo img{
+max-width: 100%;
+}
+
+.listacartoon p:hover{
+cursor: pointer;
+
+}
+
+.miscaricaturas{
+    font-size: 20px;
+
+}
+
+.amigos{
+    display: block;
+    
+}
+
+.amigos a{
+    display: flex;
+    margin: auto auto 20px 30px;
+    text-decoration: none;
+    align-items: center;
+    color: antiquewhite;
+
+}
+
+.amigos a img{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 7px;
+}
+
+.caricaturasDeAmigos{
+    font-size: 20px;
+}
+.multimedia{
+    display: grid;
+    grid-template: 350px;
+
+}
+.nombrevideo{
+    padding: 10px;
+    padding-top: 15px;
+
+}
+.nombrevideo p{
+    color: rgb(250, 49, 76);
+    margin: 0%;
+    font-size: 15px;
+}
+.botones{
+    display: flex;
+
+}
+
+.agregar{
+    background-image: linear-gradient(to right, rgb(255, 62, 62), rgb(4, 142, 255));
+    
+}
