@@ -97,3 +97,112 @@ cursor: pointer;
     background-image: linear-gradient(to right, rgb(255, 62, 62), rgb(4, 142, 255));
     
 }
+
+ .agregar, .guardar, .compartir, .anime, .normal {
+    margin-right: 10px;
+ }
+ .agregar, .guardar, .compartir, .normal, .anime :hover{
+    cursor: pointer;
+ }
+ .guardar, .compartir{
+    color: blue;
+    margin-left: 20px;
+    font-size: 13px;
+ }
+ .anime{
+    margin-left: 60px;
+    background-color: rgb(4, 104, 253);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px 15px;
+ }
+ .normal{
+    background-color: rgb(252, 5, 59);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px 15px;
+ }
+ .comentarios{
+     display: grid;
+     grid-template: 600px / 550px  1fr
+ }
+ .comentarios span{
+     display: flex;
+     justify-content: center;
+     font-size-adjust: initial;
+
+ }
+ .comentarios :hover{
+     cursor: default;
+ }
+
+ .nuevocomentario{
+     padding: 20px;
+    
+ }
+ .nuevocomentario p{
+     margin-bottom: 20px;
+ }
+ .anadircomentario{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+ }
+ .anadircomentario img{
+     width: 50px;
+     border-radius: 25px 25px 15px 15px;
+     margin-right: 10px;
+     
+ }
+ .anadircomentario{
+     background-color: white;
+     width: 300px;
+     cursor: text;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+ }
+
+ .anadircomentario input:hover{
+cursor: text;
+ }
+
+ .contenedorcomentario{
+     margin-top: 20px;
+     display: flex;
+     align-content: center;
+ }
+ .contenedorcomentario img{
+width: 50px;
+border-radius: 25px 25px 15px 15px;
+margin-right: 10px;
+
+ }
+ 
+ .texto{
+     display: block;
+ }
+.texto p{
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+.texto span{
+    font-weight: 400;
+    color: rgba(247, 4, 4, 0.8)
+}
+.sugerencias .nombresugerencia{
+display: flex;
+justify-items: start;
+}
+.sugerencias p{
+    padding: 20px 20px 10px 20px;
+
+}
+.sugerencias img{
+    width: 60%;
+}
+.sugerencias img:hover{
+    cursor:pointer
+}
+.sugerencias span:hover{
+    cursor:pointer
+}
